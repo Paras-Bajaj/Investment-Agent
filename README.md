@@ -56,7 +56,7 @@ Before you begin, ensure you have installed:
 git clone <your-repository-url>
 cd investment-agent
 npm install --legacy-peer-deps
-
+npm install autoprefixer postcss --save-dev --legacy-peer-deps
 2. Create a .env.local file in the project root:
 # Google Generative AI - REQUIRED
 GOOGLE_API_KEY=your_google_ai_api_key_here
